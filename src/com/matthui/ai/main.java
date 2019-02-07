@@ -1,5 +1,4 @@
-package chAI;
-package com.briansea.ai;
+package com.matthui.ai;
 import java.util.List;
 import java.util.Random;
 
@@ -10,7 +9,7 @@ import com.briansea.gamecabinet.game.Player;
 public class main extends Player {
 
 	private MMNode node;
-	public RandomAI() {
+	public main() {
 		
 		node = new MMNode();
 		// set my name
